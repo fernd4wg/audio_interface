@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "b2292e8e-4ea2-42b4-9923-748349e78255")
+	(uuid "63ce3d6b-ee49-492a-bc71-6f5ea3de4231")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Audio:PCM1860DBT"
