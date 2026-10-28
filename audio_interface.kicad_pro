@@ -657,17 +657,21 @@
     "top_level_sheets": [
       {
         "filename": "audio_interface.kicad_sch",
-        "name": "Root",
+        "name": "amplification",
         "uuid": "4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
       }
     ],
-    "used_designators": "U1-4,#PWR1-24,R1-13,J1-2,C1-11,RV1-3",
+    "used_designators": "U1-5,#PWR1-32,R1-13,J1-2,C1-19,RV1-3,Y1",
     "variants": []
   },
   "sheets": [
     [
       "4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e",
-      "Root"
+      "amplification"
+    ],
+    [
+      "be1c649a-631b-45cb-b685-590f76701389",
+      "adc"
     ]
   ],
   "text_variables": {},

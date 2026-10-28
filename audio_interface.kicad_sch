@@ -1757,6 +1757,12 @@
 		(color 0 0 0 0)
 		(uuid "c9fdd0c1-0fb4-47e5-babd-a8ad7addde3e")
 	)
+	(junction
+		(at 142.24 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d54cd1ce-7bdd-4956-80f8-ba4604b59d01")
+	)
 	(wire
 		(pts
 			(xy 63.5 116.84) (xy 64.77 116.84)
@@ -2339,6 +2345,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 39.37) (xy 152.4 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5692a54-ff8b-4acf-9981-468b46bf93ba")
+	)
+	(wire
+		(pts
 			(xy 67.31 39.37) (xy 68.58 39.37)
 		)
 		(stroke
@@ -2406,6 +2422,16 @@
 			(type default)
 		)
 		(uuid "fe80bb14-2ba1-45a5-aaba-fc182e2464b7")
+	)
+	(label "MIC_AMP_OUT"
+		(at 152.4 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a9a10d2-6979-4d03-b12d-8acb0f904a8c")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4113,7 +4139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ5FI-H-0_Horizontal"
+		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FI-H_Horizontal"
 			(at 30.48 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4754,7 +4780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NJ2FD-V_Vertical"
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2_Horizontal"
 			(at 30.48 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4833,7 +4859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Horizontal"
 			(at 76.2 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5680,7 +5706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Horizontal"
 			(at 130.81 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6174,6 +6200,52 @@
 				(path "/4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
 					(reference "R3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 186.69)
+		(size 25.4 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "be1c649a-631b-45cb-b685-590f76701389")
+		(property "Sheetname" "adc"
+			(at 16.51 185.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 16.51 193.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audio_interface"
+				(path "/4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
+					(page "2")
 				)
 			)
 		)
