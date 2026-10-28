@@ -661,7 +661,7 @@
         "uuid": "4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
       }
     ],
-    "used_designators": "U1-6,#PWR1-38,Y1,R1-13,J1-2,C1-20,RV1-3",
+    "used_designators": "BOOT1,SW1-2,U1-6,#PWR1-53,Y1,R1-13,J1-4,C1-29,RV1-3",
     "variants": []
   },
   "sheets": [
@@ -672,6 +672,10 @@
     [
       "be1c649a-631b-45cb-b685-590f76701389",
       "adc"
+    ],
+    [
+      "60c975b8-f372-49f0-85cf-0e9c36a7d665",
+      "power"
     ]
   ],
   "text_variables": {},
