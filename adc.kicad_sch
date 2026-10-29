@@ -6213,7 +6213,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b176fe1-c024-4d5b-9505-355f94e44220")
 		(property "Reference" "C13"
 			(at 45.72 24.1362 0)
@@ -6227,7 +6226,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 45.72 26.6762 0)
+			(at 44.958 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

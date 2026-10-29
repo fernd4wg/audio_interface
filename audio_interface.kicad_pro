@@ -661,7 +661,7 @@
         "uuid": "4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
       }
     ],
-    "used_designators": "BOOT1,SW1-2,U1-6,#PWR1-53,Y1,R1-13,J1-4,C1-29,RV1-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -676,6 +676,10 @@
     [
       "60c975b8-f372-49f0-85cf-0e9c36a7d665",
       "power"
+    ],
+    [
+      "7f2717cc-9e20-4c87-9373-ebfc98f8c76f",
+      "DAC"
     ]
   ],
   "text_variables": {},

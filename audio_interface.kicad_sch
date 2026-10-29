@@ -6261,6 +6261,51 @@
 		)
 	)
 	(sheet
+		(at 16.51 167.64)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7f2717cc-9e20-4c87-9373-ebfc98f8c76f")
+		(property "Sheetname" "DAC"
+			(at 16.51 166.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DAC.kicad_sch"
+			(at 16.51 172.0346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "audio_interface"
+				(path "/4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 16.51 187.96)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
