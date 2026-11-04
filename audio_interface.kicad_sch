@@ -2720,7 +2720,7 @@
 	)
 	(text_box "CHECK ADC INPUT SPECS"
 		(exclude_from_sim no)
-		(at 194.31 78.74 0)
+		(at 195.58 78.74 0)
 		(size 31.75 26.67)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2937,12 +2937,6 @@
 		(uuid "c03785d5-9eff-4c94-aa13-0a842db1cbaf")
 	)
 	(junction
-		(at 193.04 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c399db07-70b6-4b3e-a633-9b7dd81aef4e")
-	)
-	(junction
 		(at 19.05 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2977,6 +2971,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e77d5700-74fb-4eef-94bb-b9f80b24ed4b")
+	)
+	(junction
+		(at 193.04 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f052036c-9a07-4dd2-8f31-7aa4914e091a")
 	)
 	(junction
 		(at 86.36 139.7)
@@ -3434,7 +3434,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 92.71) (xy 208.28 92.71)
+			(xy 193.04 92.71) (xy 210.82 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5105,7 +5105,7 @@
 		(uuid "88b96583-4c03-4c9a-a6d1-b4d7f949819a")
 	)
 	(label "LINE_AMP_OUT"
-		(at 208.28 92.71 180)
+		(at 210.82 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
