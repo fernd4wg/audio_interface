@@ -5681,7 +5681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab31077f-4056-4daa-a4b6-5428f34c5fb5")
-		(property "Reference" "BOOT"
+		(property "Reference" "BOOT1"
 			(at 142.24 26.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5745,7 +5745,7 @@
 		(instances
 			(project "audio_interface"
 				(path "/4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e/be1c649a-631b-45cb-b685-590f76701389"
-					(reference "BOOT")
+					(reference "BOOT1")
 					(unit 1)
 				)
 			)
@@ -5922,7 +5922,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf12c041-72ff-47c3-ad5c-08397f4b4d23")
-		(property "Reference" "RST"
+		(property "Reference" "RST1"
 			(at 170.18 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5986,7 +5986,7 @@
 		(instances
 			(project "audio_interface"
 				(path "/4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e/be1c649a-631b-45cb-b685-590f76701389"
-					(reference "RST")
+					(reference "RST1")
 					(unit 1)
 				)
 			)
