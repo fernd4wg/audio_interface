@@ -661,7 +661,7 @@
         "uuid": "4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
       }
     ],
-    "used_designators": "RV3-5,BOOT1,U4-5,U7-9,RST1,R3,R7-8,R13-30,J5,D1-5,C10-15,C18-20,C30-56,#PWR21-28,#PWR30,#PWR32-33,#PWR37-38,#PWR54-92",
+    "used_designators": "RV3-5,BOOT1,U4-5,U7-9,RST1,R3,R7-8,R13-30,J5,D1-5,C10-15,C18-20,C30-56,#PWR21-28,#PWR30,#PWR32-33,#PWR37-38,#PWR54-93",
     "variants": []
   },
   "sheets": [
@@ -676,10 +676,6 @@
     [
       "60c975b8-f372-49f0-85cf-0e9c36a7d665",
       "power"
-    ],
-    [
-      "7f2717cc-9e20-4c87-9373-ebfc98f8c76f",
-      "tbd"
     ]
   ],
   "text_variables": {},

@@ -4150,7 +4150,7 @@
 	)
 	(rectangle
 		(start 13.97 73.025)
-		(end 129.54 132.715)
+		(end 116.205 132.715)
 		(stroke
 			(width 0)
 			(type default)
@@ -4275,26 +4275,6 @@
 			)
 		)
 		(uuid "e1901cdf-c957-4789-97e5-f23e13c1dc3a")
-	)
-	(text_box "TO SOME HEADPHONE DRIVER/OUTPUT"
-		(exclude_from_sim no)
-		(at 106.68 88.265 0)
-		(size 20.32 19.05)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "74c1283b-c8a5-4ecb-bf98-2a0b5a05103d")
 	)
 	(junction
 		(at 123.19 60.96)
@@ -4429,12 +4409,6 @@
 		(uuid "50b6c01a-7e91-4d29-b0b4-7aef91dad852")
 	)
 	(junction
-		(at 271.78 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50c517bb-8f79-47d2-9217-6eea8e93e4e1")
-	)
-	(junction
 		(at 173.99 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4487,6 +4461,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "684632c2-9860-4621-b059-bf33555a8d35")
+	)
+	(junction
+		(at 267.97 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6963d111-c6f6-4940-8c47-8acf34151ba6")
 	)
 	(junction
 		(at 99.06 36.83)
@@ -4906,6 +4886,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 168.91) (xy 58.42 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193258ce-69d9-46b4-b0ac-36df91cedc70")
+	)
+	(wire
+		(pts
 			(xy 31.75 186.69) (xy 31.75 185.42)
 		)
 		(stroke
@@ -4996,6 +4986,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 167.64) (xy 60.96 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e88cd3-f756-4f68-9edb-6964b9efea2d")
+	)
+	(wire
+		(pts
 			(xy 34.29 31.75) (xy 39.37 31.75)
 		)
 		(stroke
@@ -5003,6 +5003,16 @@
 			(type default)
 		)
 		(uuid "267778ea-dbe0-4a8b-88db-9df70ba9586e")
+	)
+	(wire
+		(pts
+			(xy 267.97 36.83) (xy 276.86 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273b4b65-3fe4-4dca-a02c-3eab16f8234d")
 	)
 	(wire
 		(pts
@@ -5616,7 +5626,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 36.83) (xy 271.78 36.83)
+			(xy 246.38 36.83) (xy 267.97 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5766,6 +5776,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 168.91) (xy 50.8 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3f3d77-638f-462c-b362-7d7dd1b29c19")
+	)
+	(wire
+		(pts
 			(xy 76.2 185.42) (xy 68.58 185.42)
 		)
 		(stroke
@@ -5833,16 +5853,6 @@
 			(type default)
 		)
 		(uuid "851a07dc-14ae-4efb-b1f2-8cfb288d6536")
-	)
-	(wire
-		(pts
-			(xy 280.67 36.83) (xy 271.78 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8577b050-69bf-4551-9286-ce2c63608036")
 	)
 	(wire
 		(pts
@@ -7913,7 +7923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 48.26 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7994,7 +8004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 87.63 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8123,7 +8133,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.67 41.91 0)
+		(at 276.86 41.91 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8132,10 +8142,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "03d3951a-9473-424f-abe3-eef399ce36ef")
 		(property "Reference" "#PWR032"
-			(at 280.67 48.26 0)
+			(at 276.86 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8146,7 +8155,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 280.67 46.99 0)
+			(at 276.86 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8156,7 +8165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 41.91 0)
+			(at 276.86 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8167,7 +8176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 41.91 0)
+			(at 276.86 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8178,7 +8187,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 280.67 41.91 0)
+			(at 276.86 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9094,7 +9103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 218.44 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -9466,7 +9475,7 @@
 		(dnp no)
 		(uuid "2c56431a-929c-48af-b8f0-63579c3316ee")
 		(property "Reference" "RV3"
-			(at 25.146 170.688 90)
+			(at 24.892 170.942 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9477,7 +9486,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 25.146 172.974 90)
+			(at 24.892 173.228 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9487,7 +9496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
 			(at 32.385 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -9636,7 +9645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 58.42 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9758,6 +9767,84 @@
 			(project "audio_interface"
 				(path "/4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 60.96 167.64 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "300c4dd7-33bf-4b35-9ac0-33f1afc063d7")
+		(property "Reference" "#PWR093"
+			(at 60.96 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 60.96 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 60.96 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2dbfb98c-e8ad-425f-ab89-3588ee133124")
+		)
+		(instances
+			(project "audio_interface"
+				(path "/4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -10708,7 +10795,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 41.91 0)
+		(at 267.97 41.91 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10717,10 +10804,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "44c9ed88-8b31-4a23-ba16-916a9552ab8e")
 		(property "Reference" "#PWR030"
-			(at 271.78 48.26 0)
+			(at 267.97 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10731,7 +10817,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 46.99 0)
+			(at 267.97 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10741,7 +10827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 41.91 0)
+			(at 267.97 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10752,7 +10838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 41.91 0)
+			(at 267.97 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10763,7 +10849,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 41.91 0)
+			(at 267.97 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10902,7 +10988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 254 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10945,6 +11031,85 @@
 			(project "audio_interface"
 				(path "/4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 55.88 168.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "460afec4-907e-4e14-8978-7a8b344fdd80")
+		(property "Reference" "R29"
+			(at 55.88 164.338 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 55.88 166.878 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 55.88 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 55.88 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55144d84-5945-45b3-b88c-bba7ddd4acf4")
+		)
+		(pin "2"
+			(uuid "f2e3894b-e3e5-4d8e-ba81-b0d9954b9b3d")
+		)
+		(instances
+			(project "audio_interface"
+				(path "/4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -11140,7 +11305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 99.06 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11222,7 +11387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 38.1 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11383,7 +11548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 227.33 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -11464,7 +11629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 99.06 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12101,7 +12266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 68.58 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12237,10 +12402,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "69d4c2e3-52ab-4203-aca6-89887d324dcb")
 		(property "Reference" "C15"
-			(at 259.0863 43.18 90)
+			(at 259.08 52.578 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12250,7 +12414,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 259.0863 45.72 90)
+			(at 259.08 46.736 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12259,7 +12423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 259.08 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12870,7 +13034,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 280.67 39.37 0)
+		(at 276.86 39.37 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12882,7 +13046,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f729395-4640-4110-826a-a101a3812727")
 		(property "Reference" "C19"
-			(at 278.13 38.1062 0)
+			(at 274.32 38.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12893,7 +13057,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 278.13 40.6462 0)
+			(at 274.32 40.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12903,8 +13067,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 280.67 39.37 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 276.86 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12915,7 +13079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 39.37 0)
+			(at 276.86 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12926,7 +13090,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 280.67 39.37 0)
+			(at 276.86 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13293,7 +13457,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2_Horizontal"
 			(at 81.28 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -15152,7 +15316,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 215.9 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -15662,7 +15826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 87.63 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -16007,7 +16171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 17.78 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16089,7 +16253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 107.95 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -16246,7 +16410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 48.26 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -16953,7 +17117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 205.74 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -17241,7 +17405,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 271.78 39.37 0)
+		(at 267.97 39.37 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17253,7 +17417,7 @@
 		(fields_autoplaced yes)
 		(uuid "d76733bb-078e-4a18-8f3c-a380ef67688e")
 		(property "Reference" "C14"
-			(at 269.24 38.1062 0)
+			(at 265.43 38.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17264,7 +17428,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 269.24 40.6462 0)
+			(at 265.43 40.6462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17274,8 +17438,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 271.78 39.37 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 267.97 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17286,7 +17450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 39.37 0)
+			(at 267.97 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17297,7 +17461,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 271.78 39.37 0)
+			(at 267.97 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17432,7 +17596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 205.74 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17614,7 +17778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 262.89 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -17696,7 +17860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 48.26 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17936,7 +18100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 27.94 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -18608,7 +18772,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -18944,7 +19108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 97.79 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -19456,51 +19620,6 @@
 			(project "audio_interface"
 				(path "/4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 223.52 171.45)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "7f2717cc-9e20-4c87-9373-ebfc98f8c76f")
-		(property "Sheetname" "tbd"
-			(at 223.52 170.7384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "DAC.kicad_sch"
-			(at 223.52 175.8446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "audio_interface"
-				(path "/4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
-					(page "4")
 				)
 			)
 		)
