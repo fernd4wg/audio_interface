@@ -661,7 +661,7 @@
         "uuid": "4c5dcd2b-24fc-41d0-b8be-9f044db4ca6e"
       }
     ],
-    "used_designators": "RV3-5,BOOT1,U4-5,U7-9,RST1,R3,R7-8,R13-30,J5,D1-5,C10-15,C18-20,C30-56,#PWR21-28,#PWR30,#PWR32-33,#PWR37-38,#PWR54-93",
+    "used_designators": "RV3-5,J5,R3,R7-8,R13-30,BOOT1,U4-5,U7-10,C10-15,C18-20,C30-58,RST1,D1-5,#PWR21-28,#PWR30,#PWR32-33,#PWR37-38,#PWR54-104",
     "variants": []
   },
   "sheets": [
